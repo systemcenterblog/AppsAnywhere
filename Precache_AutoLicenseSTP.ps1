@@ -162,8 +162,8 @@ $LocalPath           = "C:\ProgramData\Numecent\StreamingCore\Cache"
 
 # Change to suit your application see https://packaging.software2.com/
 $stpUrlApps = @()
-$stpUrlApps += "MATLAB_R2025a_64bit_x64_Auto_Server_English_rel1.stp1"
-$stpUrlApps += "Ansys_2024R2_64bit_x64_Auto_Server_English_Rel4.stp1"
+$stpUrlApps += "MATLAB_R2025a_64bit_x64_Auto_Server_English_rel1.stp"
+$stpUrlApps += "Ansys_2024R2_64bit_x64_Auto_Server_English_Rel4.stp"
 $stpUrlApps += "Adobe_2025Q4_64bit_x64_Auto_SDL_English_rel1.stp"
 
 
