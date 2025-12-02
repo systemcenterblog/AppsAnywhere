@@ -1,3 +1,16 @@
+
+#
+DISCLAIMER:
+This script is provided "as is" without warranty of any kind, either expressed or implied, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. Use of this script is at your own risk.
+
+Sections of this script have been adapted from or borrow code and concepts from public scripts authored by the OSD and AppsAnywhere communities. Full credit is given to the original authors for their contributions.
+
+Please review and test this script in your environment before deploying to production.
+
+Author of script:  https://www.syswow64.co.uk
+#>
+
+
 function Save-WebFile {
     [CmdletBinding()]
     [OutputType([System.IO.FileInfo])]
