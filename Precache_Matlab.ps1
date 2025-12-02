@@ -185,7 +185,7 @@ if (-not (Test-Path $LocalPath)) {
 }
 
 # Download the STP file
-#Save-WebFile -SourceUrl ($stpUrl + $stpUrlApp) -DestinationDirectory $stpDownloadPath -DestinationName ($stpUrlApp) -verbose
+Save-WebFile -SourceUrl ($stpUrl + $stpUrlApp) -DestinationDirectory $stpDownloadPath -DestinationName ($stpUrlApp) -verbose
 
 
 
