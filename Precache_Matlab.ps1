@@ -270,7 +270,7 @@ catch {
 
 if($DeleteSTP_STCDownload) {
 # Delete the original .stp file
-#Remove-Item (Join-Path $stpDownloadPath $AppsName'.stp') -Force
+Remove-Item (Join-Path $stpDownloadPath $AppsName'.stp') -Force
 Remove-Item (Join-Path $stpDownloadPath $AppsID'_'$AppsName'.stc') -Force
 Remove-Item (Join-Path $stpDownloadPath $AppsName'.xml') -Force
 Write-Host "Deleted downloaded STP/STC/XML file"
